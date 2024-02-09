@@ -20,6 +20,7 @@ struct GameView: View {
             VStack{
                 Spacer()
                 Image("logo")
+                
                 Spacer()
                 HStack{
                     Spacer()
