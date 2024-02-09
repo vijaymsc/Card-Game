@@ -14,6 +14,7 @@
 		63F1CD3E2A2F504C00837DDA /* Card_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1CD3D2A2F504C00837DDA /* Card_GameTests.swift */; };
 		63F1CD482A2F504C00837DDA /* Card_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1CD472A2F504C00837DDA /* Card_GameUITests.swift */; };
 		63F1CD4A2A2F504C00837DDA /* Card_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1CD492A2F504C00837DDA /* Card_GameUITestsLaunchTests.swift */; };
+		63F1CD572A2F51BA00837DDA /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F1CD562A2F51BA00837DDA /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		63F1CD432A2F504C00837DDA /* Card GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Card GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F1CD472A2F504C00837DDA /* Card_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_GameUITests.swift; sourceTree = "<group>"; };
 		63F1CD492A2F504C00837DDA /* Card_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63F1CD562A2F51BA00837DDA /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				63F1CD2C2A2F504A00837DDA /* Card_GameApp.swift */,
+				63F1CD562A2F51BA00837DDA /* GameView.swift */,
 				63F1CD2E2A2F504A00837DDA /* ContentView.swift */,
 				63F1CD302A2F504C00837DDA /* Assets.xcassets */,
 				63F1CD322A2F504C00837DDA /* Preview Content */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63F1CD2F2A2F504A00837DDA /* ContentView.swift in Sources */,
+				63F1CD572A2F51BA00837DDA /* GameView.swift in Sources */,
 				63F1CD2D2A2F504A00837DDA /* Card_GameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
