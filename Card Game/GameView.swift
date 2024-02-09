@@ -19,8 +19,7 @@ struct GameView: View {
                 .ignoresSafeArea()
             VStack{
                 Spacer()
-                Image("logo")
-                
+                Image("Logo")
                 Spacer()
                 HStack{
                     Spacer()
